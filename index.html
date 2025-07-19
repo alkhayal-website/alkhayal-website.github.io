@@ -7,19 +7,20 @@
   <style>
     :root { font-family: system-ui, sans-serif; color: #fff; }
     body  { margin:0; display:grid; place-items:center; height:100vh;
-            background:#061A29;}
+            background:#061A29; }
     main  { text-align:center; }
-    img   { width:180px; max-width:60vw; margin:0 auto 2rem; display:block; }
+
+    /* 50 % of the viewport width on any screen */
+    img   { width:50vw; max-width:50vw; height:auto;
+            margin:0 auto 2rem; display:block; }
+
     h1    { font-size:clamp(2.5rem, 5vw, 4rem); margin:0 0 .5em; }
     p     { opacity:.7; }
   </style>
 </head>
 <body>
   <main>
-    <!-- Logo -->
     <img src="Alkhayyal-Logo.png" alt="Al Khayal logo">
-
-    <!-- Headline & sub‑text -->
     <h1>We’re building something new</h1>
     <p>Check back soon — exciting things are on the way.</p>
   </main>
